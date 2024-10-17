@@ -78,7 +78,7 @@ body{
 }
 /* 个人信息头像 */
 .selfphoto{
-    background-image: url(picture/Snipaste_2024-10-16_20-30-20.jpg);
+    background-image: url(picture/1b1c4a25-1efe-478a-a188-f76a31e9b89b.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -97,7 +97,7 @@ body{
     margin-right: 100px;
     height: 40px;
     width: 100px;
-    background-color: rgb(87, 156, 156);
+    background-color: white;
 }
 a{
     text-decoration: none;
@@ -153,6 +153,19 @@ a{
     margin-bottom: 10px;
     border-radius: 5px;
 }
+.puton div{
+    background-color: black;
+    margin-left : 30px;
+    margin-top: 40px;
+    width: 500px;
+    height: 80px;
+}
+.puton div input{
+    width: 500px;
+    height: 80px;
+    outline: none;
+    border: none;
+}
 /* 主体部分关注者 */
 .follow{
     width: 693px;
@@ -161,12 +174,69 @@ a{
     margin-bottom: 10px;
     border-radius: 5px;
 }
+.follow a:hover{
+    border-color: rgb(0, 174, 236);
+}
 /* 以头像显示更新动态的up主处 */
-.touxiang{
+.touxiang0{
+    background-image: url(picture/下载.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-origin: padding-box;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 48px;
+    width: 48px;
+    margin: 20px;
+}
+.touxiang1{
+    background-image: url(picture/Snipaste_2024-10-16_20-30-20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: inline-block;
     object-fit: cover;
     background-color: blue;
     border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 48px;
+    width: 48px;
+    margin: 20px;
+}
+.touxiang2{
+    background-image: url(picture/Snipaste_2024-10-16_20-30-43.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    object-fit: cover;
+    background-color: blue;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 48px;
+    width: 48px;
+    margin: 20px;
+}
+.touxiang3{
+    background-image: url(picture/Snipaste_2024-10-16_20-30-59.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
     height: 48px;
     width: 48px;
     margin: 20px;
@@ -176,12 +246,83 @@ a{
     height: 100%;
     
 }
+/* 动态导航 */
+.con-nav{
+    position: relative;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.con-nav span{
+    display: inline-block;;
+    margin-left: 100px;
+    height: 50px;
+    line-height: 50px;
+    
+}
 /* 动态内容 */
 .dongtai{
+    position: relative;
     height: 250px;
     background-color: white;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+.special-div{
+    display: inline-block;
+}
+.dongtai-photo{
+    background-image: url(picture/1b1c4a25-1efe-478a-a188-f76a31e9b89b.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.dongtai-name{
+    float: right;
+    margin-top: 20px;
+    margin-right: 490px;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+}
+.dongtai-name a,.con-nav span:hover{
+    color: rgb(0, 174, 236);
+}
+.dongtai-con{
+    position: absolute;
+    left: 100px;
+    top: 75px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(227, 229, 231);
+    border-style: solid;
+    height: 135px;
+    width: 400px;
+}
+.dongtai-calback{
+    position: absolute;
+    left: 100px;
+    bottom: 5px;
+    height: 30px;
+    width: 400px;
+    
+}
+.dongtai-calback span{
+    padding: 50px;
+    font-size: 14px;
+}
+.dongtai-calback span:hover{
+    color: rgb(0, 174, 236);
 }
 /* -------------------------------------------------------------------- */
 /* 右侧话题图片 */
