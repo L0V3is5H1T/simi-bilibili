@@ -1,0 +1,243 @@
+/* 导航栏整体 */
+.nav{
+    background-color: white;
+    height: 63px;
+    position: fixed;
+    width: 100%;
+    
+    top: 0;
+    right: 0;
+    box-shadow: 0 2px 10px 0 rgb(238, 237, 237);
+    z-index: 999;
+}
+/* 导航栏logo */
+.topic{
+    background-image: url(picture/d502d7671dee6a5680d530e69d91fc96_512_228.jpg!bg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 99px;
+    background-position: center;
+    width: 99px;
+    height: 41px;
+}
+/* 导航栏中的<a> */
+body header div a{
+    text-decoration: none;
+    text-align: left;
+    font-size: 13px;
+    line-height: 41px;
+    display: inline-block;
+    height: 41px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 11px;
+}
+/* 搜索栏 */
+.search{
+    color: rgb(97, 97, 97);
+    background-color: rgb(242, 243, 244);
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+.search:hover{
+    background-color: white;
+}
+/* 导航栏右侧投稿 */
+.tougao{
+    background-color: rgb(252, 139, 171);
+    color: white;
+}
+/* -------------------------------------------------------------------- */
+/* 大大大主体 */
+body{
+    background-image: url(picture/c4036041-6d3f-4506-b498-31ff108c778c.avif);
+    background-color: white;
+    background-attachment: fixed;
+    position: relative;
+}
+.bigbox{
+    margin-top: 75px;
+    /*position: relative;*/
+}
+/* -------------------------------------------------------------------- */
+/* 左侧个人信息 */
+.infom{
+    position: absolute;
+    left: 150px;
+    background-image: url(picture/055fa494-9f59-4051-af67-43f7a969e652.webp);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 400px;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+/* 个人信息头像 */
+.selfphoto{
+    background-image: url(picture/Snipaste_2024-10-16_20-30-20.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    border-width: 10px;
+}
+/* 个人昵称 */
+.selfname{
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(87, 156, 156);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* 关注动态粉丝 */
+.self{
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    height: 70px;
+    width: 300px;
+}
+/* 数据板块 */
+.selfdata{
+    position: absolute;
+    top: 140px;
+    background-color: white;
+    height: 80px;
+    width: 300px;
+    text-align: center;
+}
+/* 具体数字 */
+.selfnumber{
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+    height: 20px;
+    width: 70px;
+}
+/* 粉丝关注动态 */
+.selfnumber1{
+    background-color: white;
+    display: block;
+    width: 70px;
+    position: absolute;
+    bottom: 5px;
+}
+/* -------------------------------------------------------------------- */
+/* 中间主体 */
+.main{
+    position: absolute;
+    left: 464px;
+    background-color: white;
+    width: 693px;
+    height: 100px;
+}
+
+/* 发布板块 */
+.puton{
+    height: 140px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* 主体部分关注者 */
+.follow{
+    width: 693px;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* 以头像显示更新动态的up主处 */
+.touxiang{
+    display: inline-block;
+    object-fit: cover;
+    background-color: blue;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    margin: 20px;
+}
+.touxiang img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* 动态内容 */
+.dongtai{
+    height: 250px;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* -------------------------------------------------------------------- */
+/* 右侧话题图片 */
+.popularspan{
+    position: absolute;
+    display: block;
+    width: 318px;
+    height: 134px;
+    background-image: url(picture/993b2acb-c4ee-4b85-ae4e-6a0ec94c43c6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    right: 140px;
+}
+/* 话题热搜整体 */
+.comcon{
+    position: absolute;
+    position: sticky top;
+    border-radius: 5px;
+    height: 413px;
+    right: 140px;
+    top: 150px;
+    background-color: rgb(255, 255, 255);
+    width: 318px;
+
+}
+.comcon h4{
+    text-indent: 35px;
+}
+.comcon a:hover{
+    color: rgb(0, 174, 236);
+}
+/* 每一条热搜 */
+.smallbox{
+    text-decoration: none;
+    text-indent: 17px;
+    background-color: white;
+    height: 55px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 8px;
+    line-height: 4px;
+    padding-top: 3px;
+    border-radius: 5px;
+}
+.smallbox:hover{
+    background-color: rgb(246, 247, 248);
+}
+/* 热搜标题 */
+.intro{
+    padding: 12px;
+}
+/* 具体数据 */
+.data{
+    padding: 12px;
+    font-size: 12px;
+}
